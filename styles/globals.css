@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-bg {
+  background: linear-gradient(
+    180deg,
+    hsla(314, 100%, 20%, 1) 0%,
+    hsla(23, 84%, 65%, 1) 25%,
+    hsla(314, 100%, 20%, 1) 100%
+  );
+}
+
+.limited {
+  @apply xl:max-w-7xl xl:min-w-[80rem];
+}
+
+.gradient-border {
+  background: linear-gradient(#64004d, #64004d) padding-box,
+    linear-gradient(115deg, #ea10b8, #f1945b, #f5da2a) border-box;
+  border: 7px solid transparent;
+  border-radius: 20px;
+}
+
+.clipped {
+  clip-path: ellipse(90% 90%);
+}
+
+.floating-animation {
+  animation-name: floating;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 1280px) {
+  .clipped {
+  clip-path: none;
+}
+}
+
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+
+.star {
+  --twinkle-duration: "";
+  --twinkle-delay: "";
+  --star-size: "";
+  position: absolute;
+  opacity: 0.6;
+  width: var(--star-size);
+  height: var(--star-size);
+  background: #fff;
+  border-radius: 50%;
+  animation: twinkle infinite alternate;
+  animation-duration: var(--twinkle-duration);
+  animation-delay: var(--twinkle-delay);
+}
+
+@keyframes twinkle {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+        box-shadow: 0 0 5px 0.5px rgba(150, 150, 150, 0.6);
+    }
+}

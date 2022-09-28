@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149.468" height="243.395" viewBox="0 0 149.468 243.395">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracé_318" data-name="Tracé 318" d="M720.6,306.4H870.009v78.126H720.6Z" transform="translate(-720.6 -306.4)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracé_320" data-name="Tracé 320" d="M720.6,0h74.719V168.118H720.6Z" transform="translate(-720.6)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Tracé_322" data-name="Tracé 322" d="M975,0h74.719V168.118H975Z" transform="translate(-975)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Tracé_324" data-name="Tracé 324" d="M720.6,470.3h74.719V575.565H720.6Z" transform="translate(-720.6 -470.3)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Tracé_326" data-name="Tracé 326" d="M975,470.3h74.749V575.565H975Z" transform="translate(-975 -470.3)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="ethereum" transform="translate(-211.575)">
+    <g id="Groupe_398" data-name="Groupe 398" transform="translate(211.575 89.992)" opacity="0.6">
+      <g id="Groupe_397" data-name="Groupe 397" clip-path="url(#clip-path)">
+        <path id="Tracé_317" data-name="Tracé 317" d="M795.319,306.4,720.6,340.382l74.719,44.144,74.69-44.144Z" transform="translate(-720.6 -306.4)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_400" data-name="Groupe 400" transform="translate(211.575)">
+      <g id="Groupe_399" data-name="Groupe 399" clip-path="url(#clip-path-2)">
+        <path id="Tracé_319" data-name="Tracé 319" d="M720.6,123.974l74.719,44.144V0Z" transform="translate(-720.6)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_402" data-name="Groupe 402" transform="translate(286.294)">
+      <g id="Groupe_401" data-name="Groupe 401" clip-path="url(#clip-path-3)">
+        <path id="Tracé_321" data-name="Tracé 321" d="M975,0V168.118l74.69-44.144Z" transform="translate(-975)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_404" data-name="Groupe 404" transform="translate(211.575 138.131)">
+      <g id="Groupe_403" data-name="Groupe 403" clip-path="url(#clip-path-4)">
+        <path id="Tracé_323" data-name="Tracé 323" d="M720.6,470.3l74.719,105.265V514.444Z" transform="translate(-720.6 -470.3)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_406" data-name="Groupe 406" transform="translate(286.294 138.131)">
+      <g id="Groupe_405" data-name="Groupe 405" clip-path="url(#clip-path-5)">
+        <path id="Tracé_325" data-name="Tracé 325" d="M975,514.444v61.12L1049.749,470.3Z" transform="translate(-975 -470.3)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
